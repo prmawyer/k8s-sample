@@ -1,7 +1,7 @@
 name: harness-example
 replicas: 1
 
-image: ${artifact.metadata.image}
+image: index.docker.io/pmawyer/mytestsite:latest
 dockercfg: ${artifact.source.dockerconfig}
 
 createNamespace: true
